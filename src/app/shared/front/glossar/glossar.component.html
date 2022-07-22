@@ -1,0 +1,22 @@
+<section id="glossar" class="px-8 py-16 md:py-32">
+  <ng-container *ngFor="let section of sections">
+    <article class="max-w-stage w-full mx-auto my-12 px-0 md:px-4 border-b border-solid border-gray-500 pb-4" [id]="section.alpha">
+      <h2 class="text-xl md:text-3xl font-semibold text-gray-800 mb-4 uppercase">{{section.alpha}}</h2>
+      <ng-container *ngIf="section.items && section.items.length > 0; else noItems">
+        <ul class="columns-1 sm:columns-2 md:columns-3 gap-4 md:gap-8">
+          <ng-container *ngFor="let item of section.items">
+            <li class="mb-4">
+              <a routerLink="/glossar/{{item.title | slug}}/{{item.id}}/{{section.alpha}}" class="flex flex-row justify-between items-center pr-8 text-gray-650 text-lg font-medium hover:text-blue-500 hover:underline duration-200 ease-in-out transition-all">
+                {{item.title}}
+                <i><fa-icon [icon]="faLink"></fa-icon></i>
+              </a>
+            </li>
+          </ng-container>
+        </ul>
+      </ng-container>
+      <ng-template #noItems>
+        <p class="text-gray-650 text-lg font-medium">Keine Einträge</p>
+      </ng-template>
+    </article>
+  </ng-container>
+</section>

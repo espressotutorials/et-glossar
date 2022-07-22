@@ -1,0 +1,22 @@
+<section id="glossar-navigation" class="pb-2 pt-10 w-full shadow-md bg-white">
+  <div class="max-w-stage w-full mx-auto overflow-y-hidden overflow-x-auto">
+    <nav>
+      <ul class="flex flex-row items-center justify-between p-2">
+        <ng-container *ngFor="let item of nav">
+          <li>
+            <ng-container *ngIf="item.items && item.items.length > 0; else noData">
+              <button class="appearance-none p-4 font-semibold text-gray-650 hover:text-blue-500 duration-200 ease-in-out transition uppercase">
+                {{ item.alpha }}
+              </button>
+            </ng-container>
+            <ng-template #noData>
+              <div class="p-4 font-semibold text-gray-500 uppercase">
+                {{ item.alpha }}
+              </div>
+            </ng-template>
+          </li>
+        </ng-container>
+      </ul>
+    </nav>
+  </div>
+</section>
