@@ -572,5 +572,8 @@ module.exports = {
       '700': '700ms',
       '1000': '1000ms',
     },
-  }
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };

@@ -1,6 +1,6 @@
-<button [matMenuTriggerFor]="menu" aria-label="Sprache wählen" class="appearance-none block bg-transparent text-gray-700 text-sm focus:outline-none">
+<button [matMenuTriggerFor]="menu" class="appearance-none block bg-transparent text-gray-700 text-sm focus:outline-none">
   <fa-icon class="block xl:hidden text-lg sm:text-2xl" [icon]="faLanguage"></fa-icon>
-  <span class="hidden xl:block">Sprache: <span class="text-blue-500">{{activeLanguage}}</span></span>
+  <span class="hidden xl:block" i18n>Sprache: <span class="text-blue-500">{{activeLanguage}}</span></span>
 </button>
 <mat-menu [class]="'py-1 px-4 mat-menu-panel--lang'" xPosition="before" #menu="matMenu">
   <ng-container>

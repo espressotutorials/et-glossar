@@ -8,6 +8,7 @@ import { LogoComponent } from './global/logo/logo.component';
 import { HeaderComponent } from './global/header/header.component';
 import { FooterComponent } from './global/footer/footer.component';
 import { LanguageSwitcherComponent } from './global/language-switcher/language-switcher.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const components = [
   LogoComponent,
@@ -22,6 +23,7 @@ const modules = [
   RouterModule,
   FormsModule,
   ReactiveFormsModule,
+  FontAwesomeModule,
   MatMenuModule
 ];
 

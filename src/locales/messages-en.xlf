@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="4421547354164589054" datatype="html">
+        <source>Weitere Begriffe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2388508910505104826" datatype="html">
+        <source> Zurück zur Übersicht <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8459100031778755160" datatype="html">
+        <source>Keine Einträge</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/front/glossar/glossar.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8170136455762987578" datatype="html">
+        <source>Wir bringen Licht in den dunklen SAP Dschungel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/front/stage/stage.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8825082140777246337" datatype="html">
+        <source>Unser SAP Glossar ist Ihre Anlaufstelle, wenn Sie Verständnisprobleme in der SAP-Welt haben. Wir erklären Ihnen die unterschiedlichsten Themen und Begrifflichkeiten.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/front/stage/stage.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7842597623910989718" datatype="html">
+        <source>Hilfe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3015618046559220313" datatype="html">
+        <source>Dokumentation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7036348846271932059" datatype="html">
+        <source>Häufig gestellte Fragen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5611592591303869712" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6717134378325030343" datatype="html">
+        <source>Rechtliches</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1547876271716599756" datatype="html">
+        <source>Impressum</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4082114936887396529" datatype="html">
+        <source>Datenschutz</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7565716024468232322" datatype="html">
+        <source>Links</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6787104075344752637" datatype="html">
+        <source>Flatrate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7635242493948476985" datatype="html">
+        <source>Firmenkunden</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="167711855325072065" datatype="html">
+        <source>Online Konferenzen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6334911164365104853" datatype="html">
+        <source>Webshop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2299606860572271473" datatype="html">
+        <source>Sprache: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-blue-500&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{activeLanguage}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/language-switcher/language-switcher.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

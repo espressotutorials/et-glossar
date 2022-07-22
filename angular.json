@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "et-glossar": {
+      "i18n": {
+        "sourceLocale": "de",
+        "locales": {
+          "en": "src/locales/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -54,6 +60,12 @@
               ],
               "outputHashing": "all"
             },
+            "en": {
+              "localize": ["en"]
+            },
+            "de": {
+              "localize": ["de"]
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -73,6 +85,12 @@
             },
             "development": {
               "browserTarget": "et-glossar:build:development"
+            },
+            "de": {
+              "browserTarget": "et-glossar:build:de"
+            },
+            "en": {
+              "browserTarget": "et-glossar:build:en"
             }
           },
           "defaultConfiguration": "development"

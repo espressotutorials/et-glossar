@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { data } from '../../demo/data';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-glossar-navigation',
@@ -10,9 +11,19 @@ export class GlossarNavigationComponent implements OnInit {
 
   public nav = data;
 
-  constructor() { }
+  constructor(
+    private scroller: ViewportScroller
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  /**
+   * Scroll to book section
+   * @param section type: string
+   */
+  scrollTo(section: string): void {
+    this.scroller.scrollToAnchor(section);
   }
 
 }
