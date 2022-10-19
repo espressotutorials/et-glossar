@@ -36,7 +36,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.subscriptions.push(
       this.api.getData(`api/glossaries/chars?locale=${lang}`).subscribe(
         (res) => {
-          this.nav = res.data;
+          const data: Array<any> = [];
+          res.data.forEach((el: any) => {
+            if (el.char !== '#') {
+              data.push(el);
+            }
+          })
+          this.nav = data;
         },
         (err: HttpErrorResponse) => {
         }
