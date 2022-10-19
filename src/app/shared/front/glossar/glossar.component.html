@@ -12,7 +12,7 @@
     <ul class="columns-1 sm:columns-2 md:columns-3 gap-4 md:gap-8">
       <ng-container *ngFor="let item of data">
         <li class="mb-4">
-          <a routerLink="/glossar/{{item.title | slug}}/{{item.id}}/{{section.char}}" class="flex flex-row justify-between items-center pr-8 text-gray-650 text-lg font-medium hover:text-blue-500 hover:underline duration-200 ease-in-out transition-all">
+          <a href="/glossar/{{item.title | slug}}/{{item.id}}/{{section.char}}" class="flex flex-row justify-between items-center pr-8 text-gray-650 text-lg font-medium hover:text-blue-500 hover:underline duration-200 ease-in-out transition-all">
             {{item.title}}
             <i><fa-icon [icon]="faLink"></fa-icon></i>
           </a>
