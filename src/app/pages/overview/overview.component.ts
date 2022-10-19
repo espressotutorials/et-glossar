@@ -1,6 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { ApiService } from '../../shared/services/api.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 
@@ -18,7 +17,6 @@ export class OverviewComponent implements OnInit, OnDestroy {
 
   constructor(
     private route: ActivatedRoute,
-    private api: ApiService
   ) { }
 
   ngOnInit(): void {
@@ -40,7 +38,6 @@ export class OverviewComponent implements OnInit, OnDestroy {
           this.char = {char: params['character']};
         },
         (err: HttpErrorResponse) => {
-          console.log(err);
         }
       )
     )

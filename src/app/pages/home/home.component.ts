@@ -35,11 +35,9 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.subscriptions.push(
       this.api.getData('api/glossaries/chars').subscribe(
         (res) => {
-          console.log(res);
           this.nav = res.data;
         },
         (err: HttpErrorResponse) => {
-          console.log(err);
         }
       )
     )

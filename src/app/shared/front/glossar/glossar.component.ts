@@ -60,7 +60,6 @@ export class GlossarComponent implements OnInit, OnDestroy {
           this.loading = false;
         },
         (err: HttpErrorResponse) => {
-          console.log(err);
           this.loading = false;
         }
       )

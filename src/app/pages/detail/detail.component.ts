@@ -1,7 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { data } from '../../shared/demo/data';
 import { faArrowRight, faChevronRight } from '@fortawesome/pro-solid-svg-icons';
 import { ApiService } from '../../shared/services/api.service';
 import { HttpErrorResponse } from '@angular/common/http';
@@ -51,7 +50,6 @@ export class DetailComponent implements OnInit, OnDestroy {
     this.loadingItems = true;
     this.subscriptions.push(
       this.route.params.subscribe( (params: any) => {
-        console.log(params);
         this.character = params.character;
         this.id = params.id;
         this.getData(this.id, this.character);
@@ -69,12 +67,10 @@ export class DetailComponent implements OnInit, OnDestroy {
     this.subscriptions.push(
       this.api.getData(`api/glossaries/${id}`).subscribe(
         (res) => {
-          console.log(res);
           this.item = res.data;
           this.loading = false;
         },
         (err: HttpErrorResponse) => {
-          console.log(err);
           this.loading = false;
         }
       )
@@ -82,12 +78,10 @@ export class DetailComponent implements OnInit, OnDestroy {
     this.subscriptions.push(
       this.api.getData(`api/glossaries?char=${character}`).subscribe(
         (res) => {
-          console.log(res);
           this.items = res.data;
           this.loadingItems = false;
         },
         (err: HttpErrorResponse) => {
-          console.log(err);
           this.loadingItems = false;
         }
       )
