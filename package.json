@@ -9,7 +9,7 @@
     "test": "ng test",
     "extract-i18n": "ng extract-i18n et-glossar --format xlf --output-path src/locales",
     "xliffmerge": "./node_modules/ngx-i18nsupport/dist/xliffmerge",
-    "translate-en": "poedit src/locales/messages-en.xlf"
+    "translate-en": "poedit src/locales/messages.en.xlf"
   },
   "xliffmergeOptions": {
     "srcDir": "src/locales",

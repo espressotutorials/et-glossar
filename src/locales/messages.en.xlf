@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="de" datatype="plaintext" original="ng2.template">
+  <file source-language="de" datatype="plaintext" original="ng2.template" target-language="en">
     <body>
       <trans-unit id="7243162975638794813" datatype="html">
         <source>Beispiel:</source>
+        <target state="translated">Example:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">9</context>
@@ -11,6 +12,7 @@
       </trans-unit>
       <trans-unit id="398734702059946720" datatype="html">
         <source>Quelle:</source>
+        <target state="translated">Source:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">13</context>
@@ -18,6 +20,7 @@
       </trans-unit>
       <trans-unit id="869909591260924411" datatype="html">
         <source>Espresso Tutorials bietet Ihnen auf das Wesentliche fokussierte Lernmedien für Ihren Weg vom Schnelleinstieg zum SAP-Profi.</source>
+        <target state="translated">Espresso Tutorials offers you learning media focused on the essentials for your way from a quick start to an SAP professional.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">17</context>
@@ -25,6 +28,7 @@
       </trans-unit>
       <trans-unit id="1549238708798508833" datatype="html">
         <source>Mit unserer SAP-Lernplattform et.training bieten wir Ihnen eine Flatrate für E-Books und Videos. Unser Motto: „Learn SAP anytime, anywhere, and on any device“.</source>
+        <target state="translated">With our SAP learning platform et.training we offer you a flat rate for e-books and videos. Our motto: "Learn SAP anytime, anywhere, and on any device".</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">18</context>
@@ -32,6 +36,7 @@
       </trans-unit>
       <trans-unit id="3397641515123361177" datatype="html">
         <source>Inhalt wird geladen…</source>
+        <target state="translated">Content is loaded..</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">39</context>
@@ -39,13 +44,15 @@
       </trans-unit>
       <trans-unit id="4421547354164589054" datatype="html">
         <source>Weitere Begriffe</source>
+        <target state="translated">Other terms</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7296342868239646034" datatype="html">
-        <source> Alle anzeigen <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <source> Alle anzeigen <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;>"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;>"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></source>
+        <target state="translated"> Show all <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;>"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;>"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">56,58</context>
@@ -56,7 +63,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="2388508910505104826" datatype="html">
-        <source> Zurück zur Übersicht <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <source> Zurück zur Übersicht <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;>"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;>"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></source>
+        <target state="translated"> Back to the overview <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;>"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;>"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">62,64</context>
@@ -64,6 +72,7 @@
       </trans-unit>
       <trans-unit id="5268715702632411918" datatype="html">
         <source>Weitere Inhalte werden geladen…</source>
+        <target state="translated">More content will be loaded..</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
           <context context-type="linenumber">70</context>
@@ -71,6 +80,7 @@
       </trans-unit>
       <trans-unit id="897713431917489316" datatype="html">
         <source>Einträge</source>
+        <target state="translated">Entries</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/glossar/glossar.component.html</context>
           <context context-type="linenumber">41</context>
@@ -78,6 +88,7 @@
       </trans-unit>
       <trans-unit id="1933013871016789910" datatype="html">
         <source>Gesamt</source>
+        <target state="translated">Total</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/glossar/glossar.component.html</context>
           <context context-type="linenumber">41</context>
@@ -85,6 +96,7 @@
       </trans-unit>
       <trans-unit id="8459100031778755160" datatype="html">
         <source>Keine Einträge</source>
+        <target state="translated">No entries</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/glossar/glossar.component.html</context>
           <context context-type="linenumber">55</context>
@@ -92,6 +104,7 @@
       </trans-unit>
       <trans-unit id="8170136455762987578" datatype="html">
         <source>Wir bringen Licht in den dunklen SAP Dschungel</source>
+        <target state="translated">We bring light into the dark SAP jungle</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/stage/stage.component.html</context>
           <context context-type="linenumber">4</context>
@@ -99,6 +112,7 @@
       </trans-unit>
       <trans-unit id="8825082140777246337" datatype="html">
         <source>Unser SAP Glossar ist Ihre Anlaufstelle, wenn Sie Verständnisprobleme in der SAP-Welt haben. Wir erklären Ihnen die unterschiedlichsten Themen und Begrifflichkeiten.</source>
+        <target state="translated">Our SAP glossary is your point of contact if you have problems understanding the SAP world. We explain a wide variety of topics and terminology.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/stage/stage.component.html</context>
           <context context-type="linenumber">5</context>
@@ -106,6 +120,7 @@
       </trans-unit>
       <trans-unit id="7842597623910989718" datatype="html">
         <source>Hilfe</source>
+        <target state="translated">Help</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">10</context>
@@ -117,6 +132,7 @@
       </trans-unit>
       <trans-unit id="3015618046559220313" datatype="html">
         <source>Dokumentation</source>
+        <target state="translated">Documentation</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -124,6 +140,7 @@
       </trans-unit>
       <trans-unit id="7036348846271932059" datatype="html">
         <source>Häufig gestellte Fragen</source>
+        <target state="translated">Frequently asked questions</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">17</context>
@@ -131,6 +148,7 @@
       </trans-unit>
       <trans-unit id="5611592591303869712" datatype="html">
         <source>Status</source>
+        <target state="translated">Status</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">23</context>
@@ -138,6 +156,7 @@
       </trans-unit>
       <trans-unit id="6717134378325030343" datatype="html">
         <source>Rechtliches</source>
+        <target state="translated">Legal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">29</context>
@@ -145,6 +164,7 @@
       </trans-unit>
       <trans-unit id="1547876271716599756" datatype="html">
         <source>Impressum</source>
+        <target state="translated">Imprint</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">33</context>
@@ -152,6 +172,7 @@
       </trans-unit>
       <trans-unit id="4082114936887396529" datatype="html">
         <source>Datenschutz</source>
+        <target state="translated">Privacy Policy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">36</context>
@@ -159,6 +180,7 @@
       </trans-unit>
       <trans-unit id="7565716024468232322" datatype="html">
         <source>Links</source>
+        <target state="translated">Links</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">42</context>
@@ -166,6 +188,7 @@
       </trans-unit>
       <trans-unit id="6787104075344752637" datatype="html">
         <source>Flatrate</source>
+        <target state="translated">Flat rate</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">46</context>
@@ -173,6 +196,7 @@
       </trans-unit>
       <trans-unit id="7635242493948476985" datatype="html">
         <source>Firmenkunden</source>
+        <target state="translated">Company Access</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">49</context>
@@ -180,6 +204,7 @@
       </trans-unit>
       <trans-unit id="167711855325072065" datatype="html">
         <source>Online Konferenzen</source>
+        <target state="translated">Online Events</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">52</context>
@@ -187,13 +212,15 @@
       </trans-unit>
       <trans-unit id="6334911164365104853" datatype="html">
         <source>Webshop</source>
+        <target state="translated">Webshop</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/footer/footer.component.html</context>
           <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2299606860572271473" datatype="html">
-        <source>Sprache: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-blue-500&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{activeLanguage}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <source>Sprache: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-blue-500&quot;>"/><x id="INTERPOLATION" equiv-text="{{activeLanguage}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></source>
+        <target state="translated">Language: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-blue-500&quot;>"/><x id="INTERPOLATION" equiv-text="{{activeLanguage}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/global/language-switcher/language-switcher.component.html</context>
           <context context-type="linenumber">3</context>

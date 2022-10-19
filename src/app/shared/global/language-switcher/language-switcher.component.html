@@ -5,18 +5,18 @@
 <mat-menu [class]="'py-1 px-4 mat-menu-panel--lang'" xPosition="before" #menu="matMenu">
   <ng-container>
     <nav class="grid grid-cols-1 p-4">
-      <button lang="en" class="appearance-none bg-transparent border-0 text-sm font-semibold text-gray-700 hover:text-blue-500 flex flex-row justify-between items-center border-b border-gray-300 border-solid pb-3 group" (click)="select('en')">
+      <a lang="en" class="appearance-none bg-transparent border-0 text-sm font-semibold text-gray-700 hover:text-blue-500 flex flex-row justify-between items-center border-b border-gray-300 border-solid pb-3 group" href="https://glossary.espresso-tutorials.com">
         <span class="flex-1 text-left">English</span>
         <i class="w-6 h-6 rounded-full overflow-hidden ml-2 border border-gray-400 broder-solid shadow-none group-hover:shadow-lg transition-shadow ease-in-out duration-200">
           <img src="assets/images/flags/vereinigte-staaten.png" class="w-full h-full" alt="English">
         </i>
-      </button>
-      <button lang="de" class="appearance-none bg-transparent border-0 text-sm font-semibold text-gray-700 hover:text-blue-500 flex flex-row justify-between items-center border-b border-gray-300 border-solid py-3 group" (click)="select('de')">
+      </a>
+      <a lang="de" class="appearance-none bg-transparent border-0 text-sm font-semibold text-gray-700 hover:text-blue-500 flex flex-row justify-between items-center border-b border-gray-300 border-solid py-3 group" href="https://glossar.espresso-tutorials.de">
         <span class="flex-1 text-left">Deutsch</span>
         <i class="w-6 h-6 rounded-full overflow-hidden ml-2 border border-gray-400 broder-solid shadow-none group-hover:shadow-lg transition-shadow ease-in-out duration-200">
           <img src="assets/images/flags/deutschland.png" class="w-full h-full" alt="Deutsch">
         </i>
-      </button>
+      </a>
     </nav>
   </ng-container>
 </mat-menu>

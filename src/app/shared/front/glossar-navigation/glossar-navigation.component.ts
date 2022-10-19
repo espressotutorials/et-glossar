@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { data } from '../../demo/data';
+import { Component, Input, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 
 @Component({
@@ -9,7 +8,7 @@ import { ViewportScroller } from '@angular/common';
 })
 export class GlossarNavigationComponent implements OnInit {
 
-  public nav = data;
+  @Input() nav: Array<any> = [];
 
   constructor(
     private scroller: ViewportScroller

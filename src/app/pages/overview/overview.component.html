@@ -1,0 +1,11 @@
+<app-header></app-header>
+<main class="w-full">
+  <app-stage></app-stage>
+  <section id="glossar" class="px-8 py-16 md:py-32">
+    <article class="max-w-stage w-full mx-auto my-12 px-0 md:px-4 border-b border-solid border-gray-500 pb-4">
+      <h2 class="text-xl md:text-3xl font-semibold text-gray-800 mb-4 uppercase">{{char.char}}</h2>
+      <app-glossar [section]="char" [navigation]="true"></app-glossar>
+    </article>
+  </section>
+</main>
+<app-footer></app-footer>

@@ -4,16 +4,9 @@
       <ul class="flex flex-row items-center justify-between p-2">
         <ng-container *ngFor="let item of nav">
           <li>
-            <ng-container *ngIf="item.items && item.items.length > 0; else noData">
-              <button (click)="scrollTo(item.alpha)" class="appearance-none p-4 font-semibold text-gray-650 hover:text-blue-500 duration-200 ease-in-out transition uppercase">
-                {{ item.alpha }}
-              </button>
-            </ng-container>
-            <ng-template #noData>
-              <div class="p-4 font-semibold text-gray-500 uppercase">
-                {{ item.alpha }}
-              </div>
-            </ng-template>
+            <button (click)="scrollTo(item.char)" class="appearance-none p-4 font-semibold text-gray-650 hover:text-blue-500 duration-200 ease-in-out transition uppercase">
+              {{ item.char }}
+            </button>
           </li>
         </ng-container>
       </ul>

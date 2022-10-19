@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/detail/detail.module').then(m => m.DetailModule),
   },
   {
+    path: 'glossar/:character',
+    loadChildren: () => import('./pages/overview/overview.module').then(m => m.OverviewModule),
+  },
+  {
     path: '**',
     loadChildren: () => import('./pages/page-not-found/page-not-found.module').then(m => m.PageNotFoundModule),
   },

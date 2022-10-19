@@ -2,20 +2,22 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ApiService } from '../../shared/services/api.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-overview',
+  templateUrl: './overview.component.html',
+  styleUrls: ['./overview.component.scss']
 })
-export class HomeComponent implements OnInit, OnDestroy {
+export class OverviewComponent implements OnInit, OnDestroy {
 
-  public nav: Array<any> = [];
   public data: Array<any> = [];
+  public char: any = '';
 
   private subscriptions: Subscription[] = [];
 
   constructor(
+    private route: ActivatedRoute,
     private api: ApiService
   ) { }
 
@@ -33,10 +35,9 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   initData(): void {
     this.subscriptions.push(
-      this.api.getData('api/glossaries/chars').subscribe(
-        (res) => {
-          console.log(res);
-          this.nav = res.data;
+      this.route.params.subscribe(
+        (params) => {
+          this.char = {char: params['character']};
         },
         (err: HttpErrorResponse) => {
           console.log(err);
