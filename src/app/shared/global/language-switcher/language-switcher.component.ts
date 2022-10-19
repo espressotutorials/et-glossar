@@ -16,12 +16,10 @@ export class LanguageSwitcherComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    const lang = document.documentElement.lang;
     this.activeLanguage = 'de';
+    if (lang !== 'de') {
+      this.activeLanguage = 'en';
+    }
   }
-
-  select(language: string): void {
-  }
-
-
-
 }

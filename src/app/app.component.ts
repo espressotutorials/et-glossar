@@ -28,8 +28,8 @@ export class AppComponent implements OnInit {
       this.meta.updateTag({name: 'description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
       this.meta.updateTag({name: 'twitter:description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
       this.meta.updateTag({name: 'twitter:title', content: "Glossary of SAP terms and abbreviations - Espresso Tutorials brings light into the darkness"});
-      this.meta.updateTag({name: 'og:description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
-      this.meta.updateTag({name: 'og:title', content: "Glossary of SAP terms and abbreviations - Espresso Tutorials brings light into the darkness"});
+      this.meta.updateTag({property: 'og:description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
+      this.meta.updateTag({property: 'og:title', content: "Glossary of SAP terms and abbreviations - Espresso Tutorials brings light into the darkness"});
     }
   }
 }
