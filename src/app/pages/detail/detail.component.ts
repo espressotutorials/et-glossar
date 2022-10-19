@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { faArrowRight, faChevronRight } from '@fortawesome/pro-solid-svg-icons';
 import { ApiService } from '../../shared/services/api.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-detail',
@@ -30,7 +31,9 @@ export class DetailComponent implements OnInit, OnDestroy {
 
   constructor(
     private route: ActivatedRoute,
-    private api: ApiService
+    private api: ApiService,
+    private title: Title,
+    private meta: Meta
   ) { }
 
   ngOnInit(): void {
@@ -80,6 +83,7 @@ export class DetailComponent implements OnInit, OnDestroy {
       this.api.getData(`api/glossaries?char=${character}&locale=${lang}`).subscribe(
         (res) => {
           this.items = res.data;
+          this.metaService(this.item.title, this.item.example);
           this.loadingItems = false;
         },
         (err: HttpErrorResponse) => {
@@ -89,4 +93,20 @@ export class DetailComponent implements OnInit, OnDestroy {
     )
   }
 
+  metaService(title: string, example: string): void {
+    const lang = document.documentElement.lang;
+    if (lang === 'de') {
+      this.title.setTitle(`${title} / ${example} - Glossar der SAP Begriffe und Abkürzungen - Espresso Tutorials bringt Licht ins Dunkel`);
+      this.meta.updateTag({name: 'description', content: "Bei uns im SAP Glossar finden Sie alle möglichen Erklräungen rund um das Thema SAP sehr genau erklärt. Lesen Sie sich jetzt ein!"});
+      this.meta.updateTag({property: 'og:title', content: `${title} / ${example} - Glossar der SAP Begriffe und Abkürzungen - Espresso Tutorials bringt Licht ins Dunkel`});
+      this.meta.updateTag({name: 'twitter:title', content: `${title} / ${example} - Glossar der SAP Begriffe und Abkürzungen - Espresso Tutorials bringt Licht ins Dunkel`});
+    } else {
+      this.title.setTitle(`${title} / ${example} - Glossary of SAP terms and abbreviations - Espresso Tutorials brings light into the darkness`);
+      this.meta.updateTag({name: 'description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
+      this.meta.updateTag({name: 'twitter:description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
+      this.meta.updateTag({name: 'twitter:title', content: `${title} / ${example} - Glossary of SAP terms and abbreviations - Espresso Tutorials brings light into the darkness`});
+      this.meta.updateTag({property: 'og:description', content: "In our SAP glossary you will find all possible explanations around the topic SAP explained very precisely. Read in now!"});
+      this.meta.updateTag({property: 'og:title', content: `${title} / ${example} - Glossary of SAP terms and abbreviations - Espresso Tutorials brings light into the darkness`});
+    }
+  }
 }
