@@ -21,4 +21,20 @@ export class ApiService {
     return this.http.get(`${this.apiUrl}${path}`);
   }
 
+  /**
+   * Newsletter registration
+   * @param email type: string
+   * @param lang type: string
+   * @param givenName type: string
+   * @param familyName type: string
+   */
+  newsletterRegistration(email: string, lang: string, givenName?: string, familyName?: string): Observable<any> {
+    const url = `${this.apiUrl}api/newsletter/subscribe?locale=${lang}`;
+    const body = {
+      email: email,
+    };
+
+    return this.http.post<any>(url, body);
+  }
+
 }

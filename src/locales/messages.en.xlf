@@ -226,6 +226,96 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8099875625862857142" datatype="html">
+        <source>Ihre Lernplattform für SAP-Software</source>
+        <target state="translated">Learn SAP anytime, anywhere, on any device</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8089085279384653551" datatype="html">
+        <source>Besuchen Sie unsere virtuellen SAP-Infotage</source>
+        <target state="translated">Register now free of charge and attend free virtual SAP events.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2465352624538854156" datatype="html">
+        <source>Newsletter abonnieren</source>
+        <target state="translated">Subscribe to newsletter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8855228428968313628" datatype="html">
+        <source>Melden Sie sich jetzt zu unserem Newsletter an und verpassen Sie nie wieder Neuerungen.</source>
+        <target state="translated">Subscribe to our newsletter now and never miss any news.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8115083664628466958" datatype="html">
+        <source>E-Mail</source>
+        <target state="translated">Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7113846457891797189" datatype="html">
+        <source>E-Mail Adresse eintragen</source>
+        <target state="translated">Enter email address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">E-Mail Adresse eintragen</note>
+      </trans-unit>
+      <trans-unit id="6650271288935929975" datatype="html">
+        <source>https://www.espresso-tutorials.de/datenschutz</source>
+        <target state="translated">https://www.espresso-tutorials.com/privacy-policy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">https://www.espresso-tutorials.de/datenschutz</note>
+      </trans-unit>
+      <trans-unit id="5617276728999430885" datatype="html">
+        <source>akzeptieren</source>
+        <target state="translated">accept</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8354505186244346980" datatype="html">
+        <source> Fehler! Bitte überprüfen Sie Ihre Angaben und versuchen Sie es erneut. </source>
+        <target state="translated"> Error! Please check your entries and try again</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5968230179678772842" datatype="html">
+        <source>Fehler:</source>
+        <target state="translated">Error:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9152856711593072213" datatype="html">
+        <source> Willkommen, Sie haben erfolgreich unseren Newsletter abonniert </source>
+        <target state="translated"> Welcome, you have successfully subscribed to our newsletter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/global/newsletter/newsletter.component.html</context>
+          <context context-type="linenumber">41,43</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

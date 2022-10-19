@@ -10,10 +10,10 @@ import { SharedAllModule } from '../../shared/shareAllModule';
   declarations: [
     DetailComponent
   ],
-  imports: [
-    CommonModule,
-    DetailRoutingModule,
-    SharedAllModule
-  ]
+    imports: [
+      CommonModule,
+      DetailRoutingModule,
+      SharedAllModule
+    ]
 })
 export class DetailModule { }

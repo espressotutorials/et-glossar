@@ -1,0 +1,51 @@
+<section class="w-full">
+
+  <div class="w-full max-w-content mx-auto p-4 md:p-8 bg-blue-200 rounded-lg shadow-2xl relative z-10">
+    <div class="w-full py-8 px-4 sm:px-6 lg:px-8 flex flex-row flex-wrap items-center">
+      <div class="w-full">
+        <h2 class="font-extrabold text-gray-900 leading-none text-lg md:text-2xl" i18n>Newsletter abonnieren</h2>
+        <p class="mt-3 max-w-3xl text-base text-gray-650 leading-tight" i18n>Melden Sie sich jetzt zu unserem Newsletter an und verpassen Sie nie wieder Neuerungen.</p>
+      </div>
+      <div class="w-full mt-4">
+        <ng-container *ngIf="form">
+          <form [formGroup]="form" (ngSubmit)="submitForm()" novalidat>
+            <div class="w-full flex flex-row flex-wrap">
+              <label for="email" class="sr-only" i18n>E-Mail</label>
+              <input formControlName="email" id="email" name="email" type="email" autocomplete="email" required class="w-full ms:w-auto sm:flex-1 px-5 py-3 border border-gray-500 shadow-sm placeholder-gray-650 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 rounded-md" placeholder="E-Mail Adresse eintragen" i18n-placeholder="E-Mail Adresse eintragen">
+              <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 w-48">
+                <button type="submit" class="w-full flex items-center justify-center py-3 px-5 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Jetzt abonnieren
+                </button>
+              </div>
+            </div>
+            <div class="w-full flex items-center mt-2">
+              <input formControlName="privacy" id="privacy" name="privacy" type="checkbox" class="pointer-events-none text-blue-500 border-gray-600 focus:border-indigo-300 focus:ring-0 focus:ring-transparent outline-none focus:outline-none rounded">
+              <label for="privacy" class="ml-2 block text-sm text-gray-650 cursor-pointer"><a href="https://www.espresso-tutorials.de/datenschutz" i18n-href="https://www.espresso-tutorials.de/datenschutz" target="_blank" rel="noopener" class="font-medium underline" i18n>Datenschutz</a> <span class="ml-1" i18n>akzeptieren</span><sup class="text-red-500">*</sup></label>
+            </div>
+            <div *ngIf="(email.errors && isValidFormSubmitted != null && !isValidFormSubmitted) || (privacy.errors && isValidFormSubmitted != null && !isValidFormSubmitted)" class="bg-red-400 rounded border border-solid border-red-500 text-white text-sm font-semibold py-1 px-2 mt-4" i18n>
+              Fehler! Bitte überprüfen Sie Ihre Angaben und versuchen Sie es erneut.
+            </div>
+            <div *ngIf="error" class="bg-red-400 rounded border border-solid border-red-500 text-white text-xs font-semibold py-2 px-3 mt-4 w-full">
+              <div class="flex flex-row flex-wrap items-center mb-1">
+                <fa-icon class="mr-1" [icon]="faBug"></fa-icon>
+                <span class="font-semibold" i18n>Fehler:</span>
+              </div>
+              <p>{{error.message}}</p>
+              <code class="font-normal text-gray-300" *ngIf="error.errors">
+                {{error.errors | json}}
+              </code>
+            </div>
+            <div *ngIf="isValidFormSubmitted" class="bg-green-500 rounded border border-solid border-red-600 text-white text-xs font-semibold py-2 px-3 mt-4">
+              <div class="flex flex-row flex-wrap items-center">
+                <fa-icon class="mr-1" [icon]="faSuccess"></fa-icon>
+                <span class="font-semibold" i18n>
+                  Willkommen, Sie haben erfolgreich unseren Newsletter abonniert
+                </span>
+              </div>
+            </div>
+          </form>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

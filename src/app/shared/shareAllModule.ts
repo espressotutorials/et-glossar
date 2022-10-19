@@ -9,12 +9,15 @@ import { HeaderComponent } from './global/header/header.component';
 import { FooterComponent } from './global/footer/footer.component';
 import { LanguageSwitcherComponent } from './global/language-switcher/language-switcher.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NewsletterComponent } from './global/newsletter/newsletter.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 const components = [
   LogoComponent,
   HeaderComponent,
   FooterComponent,
-  LanguageSwitcherComponent
+  LanguageSwitcherComponent,
+  NewsletterComponent
 ];
 
 const modules = [
@@ -24,7 +27,8 @@ const modules = [
   FormsModule,
   ReactiveFormsModule,
   FontAwesomeModule,
-  MatMenuModule
+  MatMenuModule,
+  MatSnackBarModule
 ];
 
 const directives = [];
