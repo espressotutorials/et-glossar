@@ -32,8 +32,9 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   initData(): void {
+    const lang = document.documentElement.lang;
     this.subscriptions.push(
-      this.api.getData('api/glossaries/chars').subscribe(
+      this.api.getData(`api/glossaries/chars?locale=${lang}`).subscribe(
         (res) => {
           this.nav = res.data;
         },

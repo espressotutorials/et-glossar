@@ -63,9 +63,10 @@ export class DetailComponent implements OnInit, OnDestroy {
   * @param character type: String
   */
   getData(id: string, character: string): any {
+    const lang = document.documentElement.lang;
     this.loading = true;
     this.subscriptions.push(
-      this.api.getData(`api/glossaries/${id}`).subscribe(
+      this.api.getData(`api/glossaries/${id}?locale=${lang}`).subscribe(
         (res) => {
           this.item = res.data;
           this.loading = false;
@@ -76,7 +77,7 @@ export class DetailComponent implements OnInit, OnDestroy {
       )
     )
     this.subscriptions.push(
-      this.api.getData(`api/glossaries?char=${character}`).subscribe(
+      this.api.getData(`api/glossaries?char=${character}&locale=${lang}`).subscribe(
         (res) => {
           this.items = res.data;
           this.loadingItems = false;

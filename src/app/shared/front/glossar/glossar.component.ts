@@ -50,8 +50,9 @@ export class GlossarComponent implements OnInit, OnDestroy {
   }
 
   initData(char: string, page: number): void {
+    const lang = document.documentElement.lang;
     this.subscriptions.push(
-      this.api.getData(`api/glossaries?char=${char}&page=${page}`).subscribe(
+      this.api.getData(`api/glossaries?char=${char}&page=${page}&locale=${lang}`).subscribe(
         (res) => {
           this.data = res.data;
           if (this.navigation) {
