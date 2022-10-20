@@ -11,8 +11,8 @@
     "xliffmerge": "./node_modules/ngx-i18nsupport/dist/xliffmerge",
     "translate-en": "poedit src/locales/messages.en.xlf",
     "localize": "ng build --localize",
-    "sitemap-de": "npx sitemap-generator-cli https://glossar.espressp-tutorials.de --filepath ./src/sitemap-de.xml --user-agent Googlebot --verbose",
-    "sitemap-en": "npx sitemap-generator-cli https://glossary.espressp-tutorials.com --filepath ./src/sitemap-en.xml --user-agent Googlebot --verbose"
+    "sitemap-de": "npx sitemap-generator-cli https://glossar.espresso-tutorials.de --filepath ./src/sitemap-de.xml --user-agent Googlebot --verbose",
+    "sitemap-en": "npx sitemap-generator-cli https://glossary.espresso-tutorials.com --filepath ./src/sitemap-en.xml --user-agent Googlebot --verbose"
   },
   "xliffmergeOptions": {
     "srcDir": "src/locales",
