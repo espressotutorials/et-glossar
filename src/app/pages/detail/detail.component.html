@@ -9,13 +9,13 @@
             <h2 class="text-lg text-gray-600 font-semibold leading-tight mt-1"><span i18n>Beispiel:</span> {{item.example}}</h2>
           </ng-container>
           <div class="prose mt-6" [innerHTML]="item.description"></div>
-          <ng-container *ngIf="item.source">
-            <p class="text-sm text-gray-700 leading-tight mt-8"><span class="mr-1" i18n>Quelle:</span> <a class="text-blue-500 hover:text-orange-500 duration-200 ease-in-out transition-colors" [href]="item.source">{{item.source}}</a></p>
-          </ng-container>
           <div class="mt-16 border-t border-gray-400 border-solid pt-8">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Espresso Tutorials</h2>
             <p class="text-gray-700 mb-2" i18n>Espresso Tutorials bietet Ihnen auf das Wesentliche fokussierte Lernmedien für Ihren Weg vom Schnelleinstieg zum SAP-Profi.</p>
             <p class="text-gray-700" i18n>Mit unserer SAP-Lernplattform et.training bieten wir Ihnen eine Flatrate für E-Books und Videos. Unser Motto: „Learn SAP anytime, anywhere, and on any device“.</p>
+            <div class="w-full mt-8 embed-container">
+              <iframe i18n-src="https://player.vimeo.com/video/725556901?h=c7bcd7ae71&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" src="https://player.vimeo.com/video/725556901?h=c7bcd7ae71&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="SAP Flatrate - Espresso Tutorials GmbH"></iframe>
+            </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
               <a href="https://et.training" target="_blank" rel="noopener nofollow" class="shadow p-8 rounded-xl hover:shadow-xl transition-shadow duration-200 ease-in-out">
                 <div class="w-16 h-16 mx-auto mb-4">
@@ -35,6 +35,11 @@
           </div>
           <div class="mt-16">
             <app-newsletter></app-newsletter>
+          </div>
+          <div class="mt-16">
+            <ng-container *ngIf="item.source">
+              <p class="text-sm text-gray-700 leading-tight mt-8"><span class="mr-1" i18n>Quelle:</span> {{item.source}}</p>
+            </ng-container>
           </div>
         </article>
       </ng-container>

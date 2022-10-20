@@ -9,26 +9,27 @@
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="398734702059946720" datatype="html">
-        <source>Quelle:</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="869909591260924411" datatype="html">
         <source>Espresso Tutorials bietet Ihnen auf das Wesentliche fokussierte Lernmedien für Ihren Weg vom Schnelleinstieg zum SAP-Profi.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1549238708798508833" datatype="html">
         <source>Mit unserer SAP-Lernplattform et.training bieten wir Ihnen eine Flatrate für E-Books und Videos. Unser Motto: „Learn SAP anytime, anywhere, and on any device“.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">15</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="9204480396404122343" datatype="html">
+        <source>https://player.vimeo.com/video/725556901?h=c7bcd7ae71&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">https://player.vimeo.com/video/725556901?h=c7bcd7ae71&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479</note>
       </trans-unit>
       <trans-unit id="8099875625862857142" datatype="html">
         <source>Ihre Lernplattform für SAP-Software</source>
@@ -44,25 +45,32 @@
           <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="398734702059946720" datatype="html">
+        <source>Quelle:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3397641515123361177" datatype="html">
         <source>Inhalt wird geladen…</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4421547354164589054" datatype="html">
         <source>Weitere Begriffe</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7296342868239646034" datatype="html">
         <source> Alle anzeigen <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">59,61</context>
+          <context context-type="linenumber">64,66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/glossar/glossar.component.html</context>
@@ -73,14 +81,14 @@
         <source> Zurück zur Übersicht <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ml-2&quot;&gt;"/><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon [icon]=&quot;faArrow&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">65,67</context>
+          <context context-type="linenumber">70,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5268715702632411918" datatype="html">
         <source>Weitere Inhalte werden geladen…</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/detail/detail.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2471041631220366258" datatype="html">
