@@ -31,7 +31,9 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/_redirects",
+              "src/_headers"
             ],
             "styles": [
               "src/styles.scss"

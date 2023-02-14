@@ -103,7 +103,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="8170136455762987578" datatype="html">
-        <source>Wir bringen Licht in den dunklen SAP Dschungel</source>
+        <source>Wir bringen Licht in den SAP-Dschungel</source>
         <target state="translated">We bring light into the dark SAP jungle</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/stage/stage.component.html</context>
@@ -111,7 +111,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="8825082140777246337" datatype="html">
-        <source>Unser SAP Glossar ist Ihre Anlaufstelle, wenn Sie Verständnisprobleme in der SAP-Welt haben. Wir erklären Ihnen die unterschiedlichsten Themen und Begrifflichkeiten.</source>
+        <source>Unser SAP-Glossar ist Ihre Anlaufstelle bei Verständnisproblemen in der SAP-Welt. Wir erklären Ihnen die unterschiedlichsten Themen und Begrifflichkeiten.</source>
         <target state="translated">Our SAP glossary is your point of contact if you have problems understanding the SAP world. We explain a wide variety of topics and terminology.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/front/stage/stage.component.html</context>
