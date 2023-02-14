@@ -1,5 +1,0 @@
-/server-push-path
-  Link: </build/main.js>; rel=preload; as=script
-  Link: </build/vendor.js>; rel=preload; as=script
-  Link: </build/polyfills.js>; rel=preload; as=script
-  Link: </build/main.css>; rel=preload; as=style
